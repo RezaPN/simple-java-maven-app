@@ -1,9 +1,5 @@
 pipeline {
     agent any
-    tools {
-        // Menggunakan alat Maven dengan nama 'maven'
-        tool 'maven'
-    }
     stages {
         stage('Build') {
             steps {
